@@ -1,0 +1,28 @@
+#refreshp {
+	width:80%;
+	text-align:center;
+	margin:15px auto 15px auto;
+	padding:5px;
+	display:none;
+}
+
+#iupi {
+	width:80%;
+	background-color:rgba(100,255,0,0.2);
+	border-radius:5px;
+	text-align:center;
+	margin:15px auto 15px auto;
+	padding:10px;
+	display:none;
+	font-weight:bold;
+}
+
+#noconp {
+	width:80%;
+	background-color:rgba(255,0,0,0.2);
+	border-radius:5px;
+	text-align:center;
+	margin:15px auto 15px auto;
+	padding:5px;
+	display:none;
+}

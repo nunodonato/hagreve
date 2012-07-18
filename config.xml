@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.2"
+        rim:header="RIM-Widget: rim/widget">
+
+  <author href="http://thebbthing.wordpress.com" rim:copyright="Copyright 2012 Nuno Donato">Nuno Donato</author>
+  
+  <rim:navigation mode="focus" />
+    
+  <name>Hoje há greve?</name>
+  <icon src="images/icon.png"/>
+  <rim:loadingScreen backgroundColor="#000000"             
+             onFirstLaunch="true">
+  </rim:loadingScreen>
+  <description>
+    Veja se consegue chegar ao trabalho.
+  </description>
+  
+  
+  <content src="index.html">
+  </content>
+  <feature id="blackberry.app" />
+  <feature id="blackberry.ui.menu" />
+  <feature id="blackberry.ui.dialog" />
+  <feature id="blackberry.system" />
+  <feature id="blackberry.invoke" />
+  <feature id="blackberry.invoke.BrowserArguments" />
+  <feature id="blackberry.identity" />
+  <feature id="blackberry.invoke.MessageArguments" />
+  <feature id="blackberry.message" />
+ 
+  <access uri="http://hagreve.com" subdomains="true">
+  </access>
+</widget>

@@ -1,0 +1,26 @@
+<html> 
+	<head>
+		<meta name="x-blackberry-defaultHoverEffect" content="false" />
+		<meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=no,target-densitydpi=device-dpi" />
+		<link  rel="stylesheet" type="text/css" href="bbui.css"><link />
+		<link  rel="stylesheet" type="text/css" href="my.css"><link />
+		<script type="text/javascript" src="bbui.js"></script>
+		<script type="text/javascript" src="code.js"></script>
+		<script type="text/javascript">
+
+			bb.init({
+				ondomready: function(element, id) {
+				try {
+					if (id=="main")
+					{
+						refreshList(element);
+						refresh(element);
+					}
+					} catch(e) { alert(e.message);}
+				}
+			});
+		</script>
+	</head>
+	<body onload="bb.pushScreen('main.htm', 'main');">	
+	</body>
+</html>
